@@ -1,4 +1,10 @@
-
+.logo-block {
+    display: contents;
+}
+.logo-fluid {
+    max-width: 9%;
+    height: auto;
+}
 .skillbar {
   position:relative;
   display:block;
