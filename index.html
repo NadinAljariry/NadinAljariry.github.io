@@ -29,6 +29,20 @@
     <!-- <link rel="shortcut icon" href=".ico"> -->
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
 
+
+    <style type="text/css">
+
+      svg {
+        width:15px;
+        height:15px;
+      }
+
+      [aria-expanded="true"] .vert {
+          display: none;
+      }
+
+  	</style>
+
   </head>
 
   <body id="page-top">
@@ -39,9 +53,8 @@
 
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
 
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://user-images.githubusercontent.com/41005077/43002823-d9fb2656-8c32-11e8-9fd5-f659e0991ff8.jpg" alt="">
-        </span>
+      <!-- Place of Profile Picture -->
+
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -65,9 +78,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#vexperience">Volunteer Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
         </ul>
       </div>
@@ -153,70 +163,161 @@
         <div class="my-auto">
           <h2 class="mb-5">Education</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-3">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Chemistry and Technology in Prague</h3>
-              <div class="subheading mb-3">Master's degree, Process Technology (Membrane Engineering) </div>
-              <p style="text-align: justify"> Second semester of Master programme dedicated to modelling and simulation, with an emphasis on process design,
-                membrane processes, reaction kinetics, intellectual capital management, valorization, commercialization and entrepreneurship.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">February 18, 2019 - Present</span>
-              <p class="text-primary"> Prague, Czech Republic</p>
-            </div>
-          </div>
+              <!-- Beginning of trial 1 -->
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-3">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Université Toulouse III - Paul Sabatier</h3>
-              <div class="subheading mb-3">Master's degree, Chemical Engineering (Membrane Engineering) </div>
-              <p style="text-align: justify"> First semester of Master Programme, focused on chemical engineering with an emphasis on membrane structural characterization methods, colloid
-                and surface engineering, thermodynamics, separation processes, quality assurance, international and European working law and environmental law.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">October 1, 2018 - January 30, 2019</span>
-              <p class="text-primary"> Toulouse, France</p>
-            </div>
-          </div>
+                  <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-3">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">American University of Sharjah (AUS)</h3>
-              <div class="subheading mb-3">Bachelor of Science in Chemical Engineering (ABET Accredited)<br>
-                Minor in Petroleum Engineering </div>
-              <p> Graduated with Cum Laude Honors.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2013 - December 21, 2017</span>
-              <p class="text-primary"> Sharjah, United Arab Emirates </p>
-            </div>
-          </div>
+                      <div class="resume-content mr-auto">
+                        <a role="button" data-toggle="collapse" href="#collapseone" aria-controls="collapseone" style="text-decoration: none">
+                          <h3 class="mb-0">
+                            <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                              <rect class="vert" height="15" width="5" y="0" x="5" />
+                              <rect height="5" width="15" y="5" x="0" />
+                            </svg>
+                            University of Chemistry and Technology in Prague
+                          </h3>
+                          <div class="subheading mb-3">Master's degree, Process Technology (Membrane Engineering) </div>
+                        </a>
+                      </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-3">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Birmingham City University</h3>
-              <div class="subheading mb-3">International Summer School</div>
-              <p>A multi-cultural experience.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 17, 2017 - August 4, 2017</span>
-              <p class="text-primary"> Birmingham, United Kingdom</p>
-            </div>
-          </div>
+                      <div class="resume-date text-md-right">
+                        <span class="text-primary">February 18, 2019 - Present</span>
+                        <p class="text-primary"> Prague, Czech Republic</p>
+                      </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Al Nahda National School</h3>
-              <div class="subheading mb-3">American Program</div>
-              <p>Graduating Average: 99.1%. <br> Class Ranking: First out of a graduating class of 203 students.
-                <br>SAT Math score: 760/800.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary"> September 2008 - June 2013</span>
-              <p class="text-primary"> Abu Dhabi, United Arab Emirates</p>
-            </div>
+                  </div>
 
-        </div>
+                  <div id="collapseone" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+                      <div class="resume-content mr-auto">
+                        <p style="text-align: justify"> Second semester of Master programme dedicated to modelling and simulation, with an emphasis on process design,
+                          membrane processes, reaction kinetics, intellectual capital management, valorization, commercialization and entrepreneurship.</p>
+                      </div>
+                  </div>
+
+                              <!-- end of trial 1 -->
+                              <!-- BLAH BLAH -->
+
+                  <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+                      <div class="resume-content mr-auto">
+                        <a role="button" data-toggle="collapse" href="#collapseTwo" aria-controls="collapseTwo" style="text-decoration: none">
+                          <h3 class="mb-0">
+                            <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                              <rect class="vert" height="15" width="5" y="0" x="5" />
+                              <rect height="5" width="15" y="5" x="0" />
+                            </svg>
+                            Université Toulouse III - Paul Sabatier
+                         </h3>
+                         <div class="subheading mb-3">Master's degree, Chemical Engineering (Membrane Engineering)</div>
+                       </a>
+                      </div>
+
+                      <div class="resume-date text-md-right">
+                        <span class="text-primary">October 1, 2018 - January 30, 2019</span>
+                        <p class="text-primary"> Toulouse, France</p>
+                     </div>
+
+                </div>
+
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+                      <div class="resume-content mr-auto">
+                       <p style="text-align: justify"> First semester of Master Programme, focused on chemical engineering with an emphasis on membrane structural characterization methods, colloid
+                         and surface engineering, thermodynamics, separation processes, quality assurance, international and European working law and environmental law.</p>
+                      </div>
+                    </div>
+
+                    <!-- end of trial 1 -->
+                    <!-- BLAH BLAH -->
+
+                    <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+                        <div class="resume-content mr-auto">
+                          <a role="button" data-toggle="collapse" href="#collapseThree" aria-controls="collapseThree" style="text-decoration: none">
+                            <h3 class="mb-0">
+                              <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                                <rect class="vert" height="15" width="5" y="0" x="5" />
+                                <rect height="5" width="15" y="5" x="0" />
+                              </svg>
+                              American University of Sharjah (AUS)
+                           </h3>
+                           <div class="subheading mb-3">Bachelor of Science in Chemical Engineering (ABET Accredited)<br>
+                             Minor in Petroleum Engineering </div>
+                         </a>
+                        </div>
+
+                        <div class="resume-date text-md-right">
+                          <span class="text-primary">August 2013 - December 21, 2017</span>
+                          <p class="text-primary"> Sharjah, United Arab Emirates </p>
+                       </div>
+
+                  </div>
+
+                      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+                        <div class="resume-content mr-auto">
+                         <p style="text-align: justify"> Graduated with Cum Laude Honors.</p>
+                        </div>
+                      </div>
+
+                <!-- BLAH BLAH -->
+
+                <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+                    <div class="resume-content mr-auto">
+                      <a role="button" data-toggle="collapse" href="#collapseFour" aria-controls="collapseFour" style="text-decoration: none">
+                        <h3 class="mb-0">
+                          <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                            <rect class="vert" height="15" width="5" y="0" x="5" />
+                            <rect height="5" width="15" y="5" x="0" />
+                          </svg>
+                          Birmingham City University
+                       </h3>
+                       <div class="subheading mb-3">International Summer School </div>
+                     </a>
+                    </div>
+
+                    <div class="resume-date text-md-right">
+                      <span class="text-primary">July 17, 2017 - August 4, 2017</span>
+                      <p class="text-primary"> Birmingham, United Kingdom </p>
+                   </div>
+
+                </div>
+
+                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+                    <div class="resume-content mr-auto">
+                     <p style="text-align: justify"> A multi-cultural experience.</p>
+                    </div>
+                  </div>
+
+                    <!-- BLAH BLAH -->
+
+                    <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+                        <div class="resume-content mr-auto">
+                          <a role="button" data-toggle="collapse" href="#collapseFive" aria-controls="collapseFive" style="text-decoration: none">
+                            <h3 class="mb-0">
+                              <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                                <rect class="vert" height="15" width="5" y="0" x="5" />
+                                <rect height="5" width="15" y="5" x="0" />
+                              </svg>
+                              Al Nahda National School
+                           </h3>
+                           <div class="subheading mb-3">American Program </div>
+                         </a>
+                        </div>
+
+                        <div class="resume-date text-md-right">
+                          <span class="text-primary">September 2008 - June 2013</span>
+                          <p class="text-primary"> Abu Dhabi, United Arab Emirates </p>
+                       </div>
+
+                    </div>
+
+                      <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+                        <div class="resume-content mr-auto">
+                         <p style="text-align: justify"> Graduating Average: 99.1%. <br> Class Ranking: First out of a graduating class of 203 students.
+                           <br>SAT Math score: 760/800.</p>
+                        </div>
+                      </div>
 
       </section>
 
@@ -225,55 +326,109 @@
           <h2 class="mb-5">Work Experience</h2>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-3">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Process Engineer Intern</h3>
-            <div class="subheading mb-3">Abu Dhabi National Oil Company (ADNOC) Onshore</div>
-            <p style="text-align: justify">Worked with a Senior Process Engineer on the Concept Design of a project that aims to increase the oil production of ADNOC Onshore. <br>
-               <div>
-               • Designed an excel sheet to size horizontal three-phase separators
-                based on Shell DEPs, that will help the department conduct future projects more efficiently.<br>
-               • Accelerated the project by conducting essential process simulations on HYSYS and PIPESIM.  <br>
-               • Consolidated annual production profiles obtained from reservoir engineers, for 16 wells.<br> </div>
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 24, 2017 - July 6, 2017</span>
-            <p class="text-primary"> Abu Dhabi, United Arab Emirates</p>
-          </div>
+        <!-- BLAH BLAH -->
+
+        <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+            <div class="resume-content mr-auto">
+              <a role="button" data-toggle="collapse" href="#collapseSix" aria-controls="collapseSix" style="text-decoration: none">
+                <h3 class="mb-0">
+                  <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                    <rect class="vert" height="15" width="5" y="0" x="5" />
+                    <rect height="5" width="15" y="5" x="0" />
+                  </svg>
+                  Process Engineer Intern
+               </h3>
+               <div class="subheading mb-3">Abu Dhabi National Oil Company (ADNOC) Onshore </div>
+             </a>
+            </div>
+
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 24, 2017 - July 6, 2017<span>
+              <p class="text-primary"> Abu Dhabi, United Arab Emirates </p>
+           </div>
+
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-3">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Production Engineer & Process Engineer Intern </h3>
-            <div class="subheading mb-3">ADNOC and ADNOC Offshore</div>
-            <p style="text-align: justify">Collaborated with a production engineer working on a water injection
-              enhancement project and a process engineer working on the Engineering, Procurement and Construction of a project for the development of a new oil field. <br>
-              <div> •	Organized the alignment of shutdown activities for 101 wellhead towers into an excel sheet, which resulted in saving the time of the production team. <br>
-                    •	Produced written reports of tasks and presented my learning outcomes.<br>
-                    •	Completed a training courses on the ASPEN HYSYS Simulator and a course titled “Process Safety Fundamentals.” <br>
+          <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+            <div class="resume-content mr-auto">
+             <p style="text-align: justify"> Worked with a Senior Process Engineer on the Concept Design of a project that aims to increase the oil production of ADNOC Onshore. <br>
+                <div>
+                • Designed an excel sheet to size horizontal three-phase separators
+                 based on Shell DEPs, that will help the department conduct future projects more efficiently.<br>
+                • Accelerated the project by conducting essential process simulations on HYSYS and PIPESIM.  <br>
+                • Consolidated annual production profiles obtained from reservoir engineers, for 16 wells.<br> </div>
+              </p>
+            </div>
+          </div>
+
+            <!-- BLAH BLAH -->
+
+            <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+                <div class="resume-content mr-auto">
+                  <a role="button" data-toggle="collapse" href="#collapseSeven" aria-controls="collapseSeven" style="text-decoration: none">
+                    <h3 class="mb-0">
+                      <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                        <rect class="vert" height="15" width="5" y="0" x="5" />
+                        <rect height="5" width="15" y="5" x="0" />
+                      </svg>
+                      Production Engineer & Process Engineer Intern
+                   </h3>
+                   <div class="subheading mb-3">ADNOC and ADNOC Offshore</div>
+                 </a>
+                </div>
+
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">May 29, 2016 – August 25, 2016<span>
+                  <p class="text-primary"> Abu Dhabi, United Arab Emirates </p>
+               </div>
+
+            </div>
+
+              <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+                <div class="resume-content mr-auto">
+                 <p style="text-align: justify"> Collaborated with a production engineer working on a water injection
+                   enhancement project and a process engineer working on the Engineering, Procurement and Construction of a project for the development of a new oil field. <br>
+                   <div> •	Organized the alignment of shutdown activities for 101 wellhead towers into an excel sheet, which resulted in saving the time of the production team. <br>
+                         •	Produced written reports of tasks and presented my learning outcomes.<br>
+                         •	Completed a training courses on the ASPEN HYSYS Simulator and a course titled “Process Safety Fundamentals.” <br>
+                   </div>
+                  </p>
+                </div>
               </div>
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 29, 2016 – August 25, 2016</span>
-            <p class="text-primary"> Abu Dhabi, United Arab Emirates</p>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-3">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Research Assistant</h3>
-            <div class="subheading mb-3">Corrosion Lab, American University of Sharjah</div>
-            <p>Worked on the Corrosion Treatment of Steel research project under the supervision of Dr. Taleb Ibrahim. <br>
-              <div>• Conducted tests for variations in the corrosion resistivity levels of samples after the treatment, using various techniques. </div>
-            </p>
+          <!-- BLAH BLAH -->
+
+          <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+              <div class="resume-content mr-auto">
+                <a role="button" data-toggle="collapse" href="#collapseEight" aria-controls="collapseEight" style="text-decoration: none">
+                  <h3 class="mb-0">
+                    <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                      <rect class="vert" height="15" width="5" y="0" x="5" />
+                      <rect height="5" width="15" y="5" x="0" />
+                    </svg>
+                    Research Assistant
+                 </h3>
+                 <div class="subheading mb-3">Corrosion Lab, American University of Sharjah</div>
+               </a>
+              </div>
+
+              <div class="resume-date text-md-right">
+                <span class="text-primary">September 2015 – May 2016<span>
+                <p class="text-primary"> Sharjah, United Arab Emirates </p>
+             </div>
+
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2015 – May 2016 </span>
-            <p class="text-primary"> Sharjah, United Arab Emirates</p>
-          </div>
-        </div>
+
+            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+              <div class="resume-content mr-auto">
+               <p style="text-align: justify"> Worked on the Corrosion Treatment of Steel research project under the supervision of Dr. Taleb Ibrahim. <br>
+                 <div>• Conducted tests for variations in the corrosion resistivity levels of samples after the treatment, using various techniques. </div>
+                </p>
+              </div>
+            </div>
 
         </div>
       </section>
@@ -441,99 +596,146 @@
           <h2 class="mb-5">Volunteer Experience</h2>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-3">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Treasurer/Public Relations</h3>
-            <div class="subheading mb-3">Kenyan Cultural Club at the American University of Sharjah</div>
-            <p>Club's mission: Promoting culture awareness and introducing students to the Kenyan culture. </p>
-              <div>
-                <p>Role as the Treasurer: <br>
-                Volunteered as a board member to organize the club's finances. Kept financial records and handled all funds of the club.</p>
-              </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2017 - Decemeber 2017</span>
-            <p class="text-primary"> Sharjah, United Arab Emirates</p>
-          </div>
+        <!-- BLAH BLAH -->
+
+        <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+            <div class="resume-content mr-auto">
+              <a role="button" data-toggle="collapse" href="#collapseNine" aria-controls="collapseNine" style="text-decoration: none">
+                <h3 class="mb-0">
+                  <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                    <rect class="vert" height="15" width="5" y="0" x="5" />
+                    <rect height="5" width="15" y="5" x="0" />
+                  </svg>
+                  Treasurer/Public Relations
+               </h3>
+               <div class="subheading mb-3">Kenyan Cultural Club at the American University of Sharjah</div>
+             </a>
+            </div>
+
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2017 - Decemeber 2017<span>
+              <p class="text-primary"> Sharjah, United Arab Emirates </p>
+           </div>
+
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-3">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Technical Debate Chairperson (ChemME Member)</h3>
-            <div class="subheading mb-3">MEPEC (Middle East Process Engineering ConfEx)</div>
-            <p style="text-align: justify">ChemME is the youth initiative at the Middle East Process Engineering Conference & Exhibition (MEPEC) in Bahrain that
-               aim to provide an engaging, enriching and enlightening experience for graduates, undergraduates and young professionals
-               in the Middle East region.
-            </p>
-                <div><p>Role as the Technical Debate Chairperson: <br>
-                    •	Chaired online meetings with the Technical Debate team. <br>
-                    • Filed documents and attended the biweekly online meetings of the ChemME Committee.<br>
+          <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+            <div class="resume-content mr-auto">
+              <p>Club's mission: Promoting culture awareness and introducing students to the Kenyan culture. </p>
+                <div>
+                  <p>Role as the Treasurer: <br>
+                  Volunteered as a board member to organize the club's finances. Kept financial records and handled all funds of the club.</p>
+                </div>
+            </div>
+          </div>
+
+          <!-- BLAH BLAH -->
+
+          <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+              <div class="resume-content mr-auto">
+                <a role="button" data-toggle="collapse" href="#collapseTen" aria-controls="collapseTen" style="text-decoration: none">
+                  <h3 class="mb-0">
+                    <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                      <rect class="vert" height="15" width="5" y="0" x="5" />
+                      <rect height="5" width="15" y="5" x="0" />
+                    </svg>
+                    Technical Debate Chairperson (ChemME Member)
+                 </h3>
+                 <div class="subheading mb-3">MEPEC 2017 (Middle East Process Engineering Conference and Exhibition)</div>
+               </a>
+              </div>
+
+              <div class="resume-date text-md-right">
+                <span class="text-primary">March 2017 - October 2017<span>
+                <p class="text-primary"> Kingdom of Bahrain </p>
+             </div>
+
+          </div>
+
+            <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+              <div class="resume-content mr-auto">
+                <p style="text-align: justify">ChemME is the youth initiative at the Middle East Process Engineering Conference & Exhibition (MEPEC) in Bahrain that
+                   aim to provide an engaging, enriching and enlightening experience for graduates, undergraduates and young professionals
+                   in the Middle East region.
+                </p>
+                    <div><p>Role as the Technical Debate Chairperson: <br>
+                        •	Chaired online meetings with the Technical Debate team. <br>
+                        • Filed documents and attended the biweekly online meetings of the ChemME Committee.<br>
+                   </div>
+              </div>
+            </div>
+
+            <!-- BLAH BLAH -->
+
+            <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
+
+                <div class="resume-content mr-auto">
+                  <a role="button" data-toggle="collapse" href="#collapseEleven" aria-controls="collapseEleven" style="text-decoration: none">
+                    <h3 class="mb-0">
+                      <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                        <rect class="vert" height="15" width="5" y="0" x="5" />
+                        <rect height="5" width="15" y="5" x="0" />
+                      </svg>
+                      Executive Secretary
+                   </h3>
+                   <div class="subheading mb-3">Innovators Club at the American University of Sharjah</div>
+                 </a>
+                </div>
+
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">August 2016 - Decemeber 2016<span>
+                  <p class="text-primary"> Sharjah, United Arab Emirates </p>
                </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2017 - October 2017</span>
-            <p class="text-primary"> Kingdom of Bahrain</p>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-3">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Executive Secretary</h3>
-            <div class="subheading mb-3">Innovators Club at the American University of Sharjah</div>
-            <p>Role as the Executive Secretary:<br>
-              Took minutes at board meetings and filed the club communications and activities.</p>
-              <div>
-                  <p>The club won an award as the best interest oriented club in the Club Fair of Fall 2016 at AUS.</p>
+            </div>
+
+              <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+                <div class="resume-content mr-auto">
+                  <p>Role as the Executive Secretary:<br>
+                    Took minutes at board meetings and filed the club communications and activities.</p>
+                    <div>
+                        <p>The club won an award as the best interest oriented club in the Club Fair of Fall 2016 at AUS.</p>
+                    </div>
+                </div>
               </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2016 - Decemeber 2016</span>
-            <p class="text-primary"> Sharjah, United Arab Emirates</p>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-3">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Peer Leader</h3>
-            <div class="subheading mb-3">Student Leadership Program (SLP) at the American University of Sharjah</div>
-            <p>Role as a Peer Leader: <br>
-                • Served as a positive role model for new students. <br>
-                • Helped the program facilitators in preparation for program activities. <br>
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2015 - Decemeber 2015</span>
-            <p class="text-primary"> Sharjah, United Arab Emirates</p>
-          </div>
-        </div>
+            <!-- BLAH BLAH -->
 
-      </section>
+            <div class="page-accordion resume-item d-flex flex-column flex-md-row mb-3" id="accordion" role="tablist">
 
+                <div class="resume-content mr-auto">
+                  <a role="button" data-toggle="collapse" href="#collapseTwelve" aria-controls="collapseTwelve" style="text-decoration: none">
+                    <h3 class="mb-0">
+                      <svg viewBox="0 0 15 15" aria-hidden="true" focusable="true">
+                        <rect class="vert" height="15" width="5" y="0" x="5" />
+                        <rect height="5" width="15" y="5" x="0" />
+                      </svg>
+                      Peer Leader
+                   </h3>
+                   <div class="subheading mb-3">Student Leadership Program (SLP) at the American University of Sharjah</div>
+                 </a>
+                </div>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-        </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">August 2015 - Decemeber 2015<span>
+                  <p class="text-primary"> Sharjah, United Arab Emirates </p>
+               </div>
 
+            </div>
 
-        <div style="text-align:center;" class=" center row">
-          <div style="margin-left: auto; " class="column gallery">
-            <img src="img/horse.png" alt="Snow" style="width:100%">
-            <div class="desc"></div>
-          </div>
-          <div style="margin-right: auto; "class="column gallery">
-            <img src="img/skiing.png" alt="Snow" style="width:100%">
-            <div class="desc"></div>
-          </div>
-        </div>
-        <div style="padding-top: 30px;">
-          <p style="text-align: justify"> For the benefits of being around horses, fitting horse riding into my schedule has always been a priority.
-            In addition to enjoying the fresh air away from the city, horse riding gets the pressure of the week to disappear. On the other hand,
-            I like skiing for the feelings I get as I fly down the mountain, especially as adrenaline kicks in. </p>
-        </div>
+              <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingone">
+                <div class="resume-content mr-auto">
+                  <p>Role as a Peer Leader: <br>
+                      • Served as a positive role model for new students. <br>
+                      • Helped the program facilitators in preparation for program activities. <br>
+                  </p>
+                </div>
+              </div>
+
 
       </section>
-
 
     </div>
 
@@ -546,6 +748,25 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+
+      <script>
+          (function() {
+              const headings = document.querySelectorAll('h3')
+
+              Array.prototype.forEach.call(headings, heading => {
+                let btn = heading.querySelector('button')
+                let target = heading.nextElementSibling
+
+                btn.onclick = () => {
+                  let expanded = btn.getAttribute('aria-expanded') === 'true' || false
+
+                  btn.setAttribute('aria-expanded', !expanded)
+                  target.hidden = expanded
+                }
+              })
+            })()
+      </script>
+
 
   </body>
 
