@@ -1,0 +1,8 @@
+svg {
+  width:15px;
+  height:15px;
+}
+
+[aria-expanded="true"] .vert {
+    display: none;
+}
