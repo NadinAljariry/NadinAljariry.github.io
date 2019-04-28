@@ -1,8 +1,29 @@
 svg {
-  width:15px;
-  height:15px;
+  width:20px;
+  height:20px;
 }
 
 [aria-expanded="true"] .vert {
     display: none;
+}
+
+svg:hover {
+  color: Black;
+}
+
+.mb-z {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.mb-x {
+  padding: 10px;
+}
+.hoverbox :hover {
+  border: 2px solid #d0d0d0;
+  border-radius: 7px
+}
+
+.nohoverbox :hover {
+  border: 0px solid #d0d0d0;
 }
