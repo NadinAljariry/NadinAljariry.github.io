@@ -17,8 +17,14 @@ svg:hover {
 }
 
 .mb-x {
-  padding: 10px;
+  padding: 7px;
 }
+
+.mb-6 {
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
 .hoverbox :hover {
   border: 2px solid #d0d0d0;
   border-radius: 7px
